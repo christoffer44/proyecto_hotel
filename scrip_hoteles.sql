@@ -12,7 +12,7 @@ CREATE TABLE CLIENTE (
     telefono VARCHAR(255),
     reserva_id INT,
     CONSTRAINT FK_reserva
-    FOREIGN KEY (reserva_id) REFERENCES RESERVAS (reservas_id)  -- Asegúrate de usar el nombre correcto de la columna de la tabla RESERVAS
+    FOREIGN KEY (reserva_id) REFERENCES RESERVAS (reservas_id)  
 );
 
 
